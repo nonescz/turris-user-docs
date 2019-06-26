@@ -8,12 +8,12 @@ Simple reset
 
 It could happen that MOX is not working as expected. In this occasion, you can restart your MOX. If you just press the reset button, it will reset the MOX gracefully. If you hold the button for a while (more than 4 seconds) it will reset the MOX immediately with no respect to running services. Button handling is implemented in software so its function depends on working system. If it seems that MOX is not restarting unplug it from the power supply for a while.
 
-Various rescue modes of MOX
+Various rescue modes of Turris MOX
 ---------------------------
 
-During the boot, the button can be used to select one of the rescue modes of Turris MOX. To do so, hold the button when you plug in the power supply.
+During the boot, the button can be used to select one of the rescue modes of Turris MOX. To do so, hold the reset button when you plug in the power supply.
 
-The workflow of rescue system is that MOX will be signaling with LED what it is going to do. If you DON'T like, it press the button and MOX will offer you the next mode. If you are satisfied with what is MOX going to do, do nothing, just wait. MOX will be announcing the selected mode twice before it really does it (just in case you miss the fist announcement due to being occupied by pressing the button).
+The workflow of rescue system is that MOX will be signaling with LED what it is going to do. If you **don't** like, press the button and MOX will offer you the next mode. If you are satisfied with what is MOX going to do, do nothing, just wait. MOX will be announcing the selected mode twice before it really does it (just in case you miss the fist announcement due to being occupied by pressing the button).
 
 ### List of modes:
 
@@ -49,4 +49,3 @@ Let's pretend we would like to set mode 4 – USB flashing. Here is the example 
 |Blink blink blink blink|I'm saying that I'm going to mode 4 (second announcement).|Do nothing|
 |on (about 3 seconds)|I'm waiting for your opinion. _Everything is fine. Do nothing._ |Do nothing|
 |Slow blinking |Time's up. I'm going to mode 4. |Do nothing|
-
