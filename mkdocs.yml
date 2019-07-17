@@ -5,6 +5,8 @@ copyright: GPLv3
 
 
 markdown_extensions:
+    - markdown_include.include:
+        base_path: docs
     - extra
     - codehilite
     - smarty
@@ -31,6 +33,23 @@ nav:
     - First setup:
         - 'Mox': 'basics/first-setup/mox_first_setup.md'
         - 'Omnia': 'basics/first-setup/omnia.md'
+- Hardware:
+    - MOX:
+        - About: 'hw/mox/intro.md'
+        - Sets:
+            - 'Start': 'hw/mox/sets/start.md'
+            - 'Pocket Wi-Fi': 'hw/mox/sets/pocketwifi.md'
+            - 'Power Wi-Fi': 'hw/mox/sets/powerwifi.md'
+            - 'Classic': 'hw/mox/sets/classic.md'
+        - Modules:
+            - 'MOX A (Basic)': 'hw/mox/modules/a.md'
+            - 'MOX B (Extension)': 'hw/mox/modules/b.md'
+            - 'MOX C (Ethernet)': 'hw/mox/modules/c.md'
+            - 'MOX D (SFP)': 'hw/mox/modules/d.md'
+            - 'MOX E (Super Ethernet)': 'hw/mox/modules/e.md'
+            - 'MOX F (USB)': 'hw/mox/modules/f.md'
+            - 'MOX G (Super Extension)': 'hw/mox/modules/g.md'
+        - Add-ons: 'hw/mox/addons.md'
 - Hardware specific topics:
     - Mox:
         - 'Reset and rescue': 'hw-spec/mox/mox_rescue_modes.md'
