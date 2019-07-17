@@ -43,6 +43,7 @@ TODO some nice introduction.
 ## Software reference
 * General overview of Turris OS
 * Foris
+* [LuCI](basics/luci/luci)
 * Updater
 * Schnapps
 * Pakon - Parental Control
