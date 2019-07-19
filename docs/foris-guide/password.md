@@ -1,10 +1,10 @@
 ## Setting password
 
-![Setting password without LuCI](foris-guide/pw.png)
+![Setting password without LuCI](pw.png)
 
 You can set the password that will be used to access the Foris interface here. In the "Advanced" line you can choose if you want to set the same password with Foris or use another one. The same password will be used for the advanced configuration interface LuCI and for the user root when accessing the router via SSH.
 
-![Setting password and different for LuCI](foris-guide/password_ex1.png)
+![Setting password and different for LuCI](password_ex1.png)
 
 In the first column, you can set up the desired password for administration interface Foris. In the second you need to repeat this password.
 

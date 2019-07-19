@@ -6,4 +6,4 @@ Turris Omnia allows you to disable the DNSSEC validation. We highly recommend yo
 
 The connectivity test is used to test the individual components of your connection and includes, among other things, a test of the DNS itself and DNSSEC security. You can also use this test to verify forwarding settings.
 
-![DNS - provider option - default](foris-guide/dns.png)
+![DNS - provider option - default](fdns.png)
