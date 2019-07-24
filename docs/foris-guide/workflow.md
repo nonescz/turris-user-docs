@@ -1,12 +1,14 @@
 ## Guide workflow
 
-In this step, you can choose your workflow guide. You can choose from three options, everyone got something else. The first option, Router, is a more or less basic guide. You will choose this one if you want just connect your router to the worldwide net with basic configuration.
+In this step, you can choose your workflow guide. You can choose from three various options. The first option, Router, is a more or less basic guide. We recommend to choose this one if you want just connect your router to the worldwide net with basic configuration.
 
 ![Workflow options](guide_wf_all.png)
 
 If you plan to use Turris in other ways such as a server, AP, or something else, you can choose from other workflows.
 
 For example, if you choose server workflow, you will get slightly different configuration guide with another default values.
+
+!!The selected workflow will be highlighted with red border.!!
 
 ![Chosen workflow - Router](workflow_chosen.png)
 
@@ -16,5 +18,3 @@ This workflow is recommended only to experienced users, because Turris will not 
 This is, how you will see minimal configuration in next step.
 
 ![Finished workflow - Minimal](workflow_minimal.png)
-
-The selected workflow will be with red border, after saving you will see what's on the picture - in our example Router workflow.
