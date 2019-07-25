@@ -5,9 +5,8 @@ MOX is an unique network device. It contains usual set of
 bus. MOXTET bus allows us to extend MOX with various modules. The MOXTET bus
 provides access to faster buses like PCIe or SGMII.
 
-It is based on _Marvell Armada 3720_ dual core _armv8_ CPU clocked at 1GHz. It
-can contain either 512M or 1G of RAM. Storage-wise it features one micro SD
-slot and 8MB SPI NOR flash that contains U-Boot and rescue system.
+It is based on _Marvell Armada 3720_ dual core _armv8_ CPU clocked at 1GHz. It contains either 512M or 1G of RAM and beside of that one micro SD
+slot and 8MB SPI NOR flash which stores U-Boot and rescue system.
 
 ## Network interfaces
 
@@ -18,17 +17,15 @@ your SFP is _eth1_ directly and is able to do up to 2,5 Gbit.
 
 ### Multiple switches
 
-[MOX C](modules/c.md) and [MOX D](modules/d.md) are simple examples of how
-network can end and are probably quite obvious how do they work. Where things
-get a little more complicated is [MOX E](modules/e.md).
-
-In that case 2,5 Gbit link goes from CPU to the first switch which exposes 8
+[MOX C](modules/c.md) and [MOX D](modules/d.md) are simple examples of which network configurations can be created
+and it is probably quite obvious how do they work. Things get a little bit more complicated with [MOX E](modules/e.md).
+In that case, 2,5 Gbit link goes from CPU to the first switch which exposes 8
 Gigabit ports for generic use, but internally has 10 ports. One of the two
 non-exposed ports is connected to your CPU and the other one is connected to
 MOXTET for future use by other modules. Both of them are 2,5 Gbit.
 
 That other module on MOXTET can easily be another MOX E that would do the same
-thing. On both MOX Es you have 8 GBit ports, but the switches are connected to
+thing. On both MOX Es you have 8x 1GBit ports, but the switches are connected to
 each other via 2,5 GBit links and only one of them is connected directly to CPU
 via 2,5 GBit link. That is something to consider when designing your network.
 Devices that exchange a lot of data quite often between each other should be
