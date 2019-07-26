@@ -5,8 +5,7 @@ MOX is an unique network device. It contains usual set of
 bus. MOXTET bus allows us to extend MOX with various modules. The MOXTET bus
 provides access to faster buses like PCIe or SGMII.
 
-It is based on _Marvell Armada 3720_ dual core _armv8_ CPU clocked at 1GHz. It contains either 512M or 1G of RAM and beside of that one micro SD
-slot and 8MB SPI NOR flash which stores U-Boot and rescue system.
+It is based on _Marvell Armada 3720_ dual core _armv8_ CPU clocked at 1GHz. It can contain either 512M or 1G of RAM. Storage-wise it features one micro SD slot and 8MB SPI NOR flash that contains U-Boot and rescue system.
 
 ## Network interfaces
 
