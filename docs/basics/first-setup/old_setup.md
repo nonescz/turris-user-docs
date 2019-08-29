@@ -6,7 +6,7 @@ part of updates some old factory images were updated therefor depending on
 whether your router was online and updating, you might start from entirely
 different version as well.
 
-But regardless of the image you are starting from, the basics are same.
+But regardless of the image you are starting from, the basics are the same.
 You need to connect your computer to LAN port on your Turris router (see the
 labels on the back of your router). Then start the router and open up a web browser and
 navigate to configuration wizard. It can be found by default on
