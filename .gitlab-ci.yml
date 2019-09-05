@@ -8,20 +8,11 @@ before_script:
     - apt-get install -y python3-pip git wget
     - pip3 install --user -r ./requirements.txt
 
-stages:
-    - test
-    - deploy
-
-deploy:
+build:
     stage: deploy
     script:
-        - LC_ALL=C.UTF-8 LANG=C.UTF-8 ~/.local/bin/mkdocs build
+        - LC_ALL=C.UTF-8 LANG=C.UTF-8 PATH="$HOME/.local/bin:$PATH" ./test.sh
     artifacts:
         paths:
             - site
         expire_in: 1 week
-
-test:
-    stage: test
-    script:
-        - PATH="$HOME/.local/bin:$PATH" ./test.sh
