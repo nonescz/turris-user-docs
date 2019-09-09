@@ -5,8 +5,8 @@ variables:
 
 before_script:
     - apt-get update
-    - apt-get install -y python-pip git
-    - pip install --user -r ./requirements.txt
+    - apt-get install -y python3-pip git
+    - pip3 install --user -r ./requirements.txt
 
 build:
     script:
