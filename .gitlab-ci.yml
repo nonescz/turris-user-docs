@@ -10,7 +10,7 @@ before_script:
 
 build:
     script:
-        - LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 ~/.local/bin/mkdocs build
+        - LC_ALL=C.UTF-8 LANG=C.UTF-8 ~/.local/bin/mkdocs build
     artifacts:
         paths:
             - site
