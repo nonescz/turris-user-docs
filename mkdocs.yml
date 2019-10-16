@@ -87,6 +87,10 @@ nav:
         - Versions: 'basics/tos_versions.md'
         - Changelog: 'basics/changelog.md'
         - 'Early access': 'geek/testing.md'
+    - Contributing:
+        - Overview: 'geek/contributing/overview.md'
+        - Issues: 'geek/contributing/issues.md'
+        - "Pull request": 'geek/contributing/pull_request.md'
 - Hardware:
     - Models: 'basics/models.md'
     - MOX:
