@@ -1,7 +1,7 @@
 # LXC on Turris
 
 
-## What is LXC
+## What is LXC?
 
 The Linux Containers ([LXC](https://en.wikipedia.org/wiki/LXC)) is an
 [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualisation) method for running multiple containers
