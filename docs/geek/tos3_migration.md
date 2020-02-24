@@ -71,13 +71,15 @@ Consideratiions for advanced users:
   (This setup is not possible from LuCI)
 
 !!! tip
-    It is always possible to perform factory reset or medkit to recover router
-    functionality if migration fails.
+	It is always possible to perform factory reset ([Turris
+	Omnia](..//hw/omnia/rescue_modes.md#rollback-to-factory-reset)) or [medkit or
+	rollback](../hw/omnia/rescue_modes.md) on Turris Omnia to recover router
+	functionality if migration fails.
 
+http://127.0.0.1:8000/hw/omnia/rescue_modes/#rollback-to-factory-reset
 
 ## Optional migration
-Migration is not executed automatically but for testing purposes users have to
-trigger it manually.
+Migration is not yet executed automatically but it can be triggered manually.
 
 !!! warning
     Do not attept to migrate Turris 1.x unless you are running on BTRFS with SD
@@ -85,7 +87,7 @@ trigger it manually.
     only option then.
 
 To start migration you have to have at least Turris OS 3.11.14 installed on your
-device. Please be sure about that before you attempt migration. Just to be sure
+device. Please be sure about that before you attempt migration. To double check
 you can run `pkgupdate` from command line (over SSH). It should not ask you to
 confirm any changes.
 
@@ -99,7 +101,7 @@ updater-supervisor -d
 This sequence installs a package that triggers migration and starts Turris
 updater.
 
-!!! info
+!!! warning
     Migration takes some time. It can take up to hour or more. During that time
     router can become unaccessible. Do not reboot or disconnect router from power
     supply during that time.
@@ -130,5 +132,5 @@ You can verify updater's functionality by running `pkgupdate`.
 Automatic migration for all routers running Turris OS 3.x is planned.
 
 There are still known problems with migration of Turris 1.x and it is also
-expected that optional migration is going to discover some problems. Those have to
-be fixes before automatic migration is enabled.
+expected that this optional migration is going to discover some problems. Those
+have to be fixed before automatic migration is enabled.
