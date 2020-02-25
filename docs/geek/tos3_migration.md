@@ -71,10 +71,9 @@ Consideratiions for advanced users:
   (This setup is not possible from LuCI)
 
 !!! tip
-	It is always possible to perform factory reset ([Turris
-	Omnia](..//hw/omnia/rescue_modes.md#rollback-to-factory-reset)) or [medkit or
-	rollback](../hw/omnia/rescue_modes.md) on Turris Omnia to recover router
-	functionality if migration fails.
+    It is always an option to perform factory reset to recover the router if
+    migration fails. In case of Turris Omnia even
+    [rollback](../hw/omnia/rescue_modes.md) should be good enough.
 
 ## Optional migration
 Migration is not yet executed automatically but it can be triggered manually.
