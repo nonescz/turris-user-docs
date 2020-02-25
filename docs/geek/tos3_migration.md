@@ -76,8 +76,6 @@ Consideratiions for advanced users:
 	rollback](../hw/omnia/rescue_modes.md) on Turris Omnia to recover router
 	functionality if migration fails.
 
-http://127.0.0.1:8000/hw/omnia/rescue_modes/#rollback-to-factory-reset
-
 ## Optional migration
 Migration is not yet executed automatically but it can be triggered manually.
 
