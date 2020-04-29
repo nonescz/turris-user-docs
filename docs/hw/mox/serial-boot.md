@@ -55,7 +55,7 @@ $ ls
 mox-imager.amd64  mox-imager.x86  trusted-uart-image.bin
 ```
 
-Later we will use either the `mox-imager.amd64` or `mox-imager.x86` binary, depending
+Later you will use either the `mox-imager.amd64` or `mox-imager.x86` binary, depending
 on your architecture.
 
 ### Compiling from source
