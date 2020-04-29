@@ -24,7 +24,7 @@ broken, including:
   this case the boards may or may not display some U-Boot prompts on the UART
   console.
 
-## Connecting UART cable
+## Connecting a UART cable
 
 You will need a 1.8V USB TTL serial cable. Connect the Tx, Rx, GND and potentially
 VCC signals to pins 13, 14, 5 and 6 respectively, as described
