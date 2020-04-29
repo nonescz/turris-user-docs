@@ -195,7 +195,7 @@ YMODEM protocol. This text shows how to do this with `minicom`.
    displayed.
 3. Press `[s]` to send files. Upload window shall appear.
 4. Select the `ymodem` option with arrow keys and confirm with `[Enter]`.
-   File selection window will appear.
+   A file selection window will appear.
 5. Press `[Enter]`. Another window, titled `No file selected - enter filename`
    shall appear.
 6. Write `/tmp/secure-firmware.bin` and press `[Enter]`. `minicom` shall start
