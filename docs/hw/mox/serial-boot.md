@@ -21,7 +21,7 @@ broken, including:
   `secure-firmware` MTD partition. In this case the board won't display anything
   on the UART console after power up.
 * You could have written a broken U-Boot into the `u-boot` MTD partition. In
-  this case the boards may or may not display some U-Boot prompts on UART
+  this case the boards may or may not display some U-Boot prompts on the UART
   console.
 
 ## Connecting UART cable
