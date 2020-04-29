@@ -122,7 +122,7 @@ sources, and execution of steps 1-5 from previous section is shown:
 Your browser does not support the video tag.
 </video>
 
-### Flashing bootloader images from MicroSD card
+### Flashing bootloader images from a MicroSD card
 
 If you put the original bootloader images on a MicroSD card, put the card
 into MOX and execute the following commands in U-Boot (the output is shown as
