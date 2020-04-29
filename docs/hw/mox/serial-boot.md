@@ -2,7 +2,7 @@
 
 !!! warning
     The procedure described on this page is for developers and really advanced
-    users only and you normally shouln't be in a position to need it.
+    users only and you normally shouldn't be in a position to need it.
     If your router works, **do not attempt to reflash it**.
 
 !!! warning
