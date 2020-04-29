@@ -6,7 +6,7 @@
     If your router works, **do not attempt to reflash it**.
 
 !!! warning
-    This howto works only on a Linux computer. If you are using other operating
+    This howto works only on a Linux computer. If you are using another operating
     system, the easiest way to execute the procedure described here is via
     Ubuntu installed in VirtualBox.
 
