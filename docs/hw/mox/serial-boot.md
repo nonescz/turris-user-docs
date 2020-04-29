@@ -19,7 +19,7 @@ broken, including:
 
 * You could have written an invalid image (for example U-Boot) into the
   `secure-firmware` MTD partition. In this case the board won't display anything
-  on UART console after power up.
+  on the UART console after power up.
 * You could have written a broken U-Boot into the `u-boot` MTD partition. In
   this case the boards may or may not display some U-Boot prompts on UART
   console.
