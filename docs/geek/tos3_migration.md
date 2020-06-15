@@ -113,13 +113,16 @@ updater.
     Updates approvals are disabled when migration is triggered to not halt
     migration in situation when user is unable to approve subsequent continuation.
 
+Update is finished once you receive notification that migration was finished.
+Message in question starts with with sentence `Migraton from Turris OS 3.x was
+completed.`.
 
 ## Known problems and solutions
 You can encounter some problems that are caused by automatic migration.  Not all
 problems can be automatically removed. These are known problems and solutions for
 them.
 
-##### Migration was successful but updater now reports error about unavailable package
+##### Updater reports error about unavailable package
 This happens because you had installed some package that is no longer available
 in Turris OS. This is intended as a protection of functionality you set up.
 
@@ -130,7 +133,7 @@ unnecessary `Install` and `Uninstall` lines.
 
 You can verify updater's functionality by running `pkgupdate`.
 
-##### Migration was successful but I received message that Btrfs support was removed
+##### I received message that Btrfs support was removed
 This affects only Turris 1.0 and Turris 1.1 routers.
 
 This happens because name of package for Turris 1.x Btrfs support was changed. It
