@@ -91,6 +91,7 @@ nav:
         - Overview: 'geek/contributing/overview.md'
         - Issues: 'geek/contributing/issues.md'
         - "Pull request": 'geek/contributing/pull_request.md'
+        - Translation: 'geek/contributing/translation.md'
 - Hardware:
     - Models: 'basics/models.md'
     - MOX:

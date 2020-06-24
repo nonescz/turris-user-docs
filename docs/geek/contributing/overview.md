@@ -69,16 +69,18 @@ writing and modifying articles.
 
 ## Translate web interface
 Turris base language is English and most of the Turris tools are not localized.
-The only exception is Foris web interface and [Luci](../../basics/luci/luci.md).
+The only exception is Foris/reForis web interface and [LuCI](../../basics/luci/luci.md).
 
 You can help by translating strings from English to your native language (or any
 language you know). We use [Weblate](https://weblate.org/) for that purpose.
 
-__Foris__ web interface can be translated in Weblate project
+__Foris__ (old) and __reForis__ (new) web interfaces can be translated in Weblate project
 [Turris](https://hosted.weblate.org/projects/turris/).
 
-__Luci__ web interface can be translated in Weblate project
-[OpenWrt](https://hosted.weblate.org/projects/openwrt/)
+__LuCI__ web interface can be translated in Weblate project
+[OpenWrt](https://hosted.weblate.org/projects/openwrt/).
+
+Please read [how to participate in translation](translation.md) before you start translating.
 
 ## Submit code
 Turris declaration that _We believe in open-source_ is not just empty statement,
