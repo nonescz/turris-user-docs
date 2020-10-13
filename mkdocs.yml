@@ -117,6 +117,7 @@ nav:
         - About: 'hw/shield/shield.md'
         - Screenshots: 'hw/shield/screenshots.md'
     - Turris 1.X: 'hw/turris-1x/turris-1x.md'
+    - Accessories: 'hw/hcl.md'
 - Troubleshooting:
     - 'Common errors': 'basics/common_errors.md'
     - Rescue modes:
