@@ -2,7 +2,7 @@
 
 ## Router overview
 
-![Router overview](101_reforis_overview.png)
+![!Router overview](101_reforis_overview.png){: loading=lazy, width=50% }
 
 ## WiFi configuration
 
