@@ -18,6 +18,7 @@ theme:
       - 404.html
 
 markdown_extensions:
+    - lightgallery
     - markdown_include.include:
         base_path: docs
     - admonition
