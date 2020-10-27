@@ -1,18 +1,58 @@
-/* Set turris colors */
+/* Turris color theme */
 :root {
-  --md-primary-fg-color: rgb(38, 38, 38);
-  --md-accent-fg-color: rgb(00, 123, 255);
+	/* Primary color shades */
+	--md-primary-fg-color:               #262626;
+	--md-primary-fg-color--light:        #3D3D3D;
+	--md-primary-fg-color--dark:         #141414;
+	--md-primary-bg-color:               hsla(0, 0%, 100%, 1);
+	--md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+
+	/* Accent color shades */
+	--md-accent-fg-color:                hsla(197, 100%, 40%, 1);
+	--md-accent-fg-color--dark:          hsla(197, 100%, 32%, 1);
+	--md-accent-fg-color--transparent:   hsla(197, 100%, 40%, 0.1);
+	--md-accent-bg-color:                hsla(0, 0%, 100%, 1);
+	--md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
+	
 }
 
-/* Make links in articles always visible */
+/* Link styles  */
 .md-typeset a {
-	color: rgb(00, 00, 255);
+    color: var(--md-accent-fg-color);
 }
 
-/* Add border to images to make them stand out */
+.md-typeset a:hover,
+.md-nav__item a.md-nav__link--active:hover {
+    color: var(--md-accent-fg-color--dark);
+}
+
+.md-nav__item .md-nav__link--active {
+    color: var(--md-accent-fg-color);
+}
+
+.md-content__inner img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+    border-radius: 4px;
+}
+
+.lightgallery a img {
+    cursor: zoom-in;
+}
+
+/* Image border */
 .md-typeset img {
 	border: solid;
 	border-width: 1px;
 	border-color: lightgrey;
 }
 
+/* Image caption styles */
+.image-caption {
+	font-size: 0.7rem;
+	font-style: italic;
+	text-align: center;
+	color: grey;
+	margin: 0 0 2rem 0 !important;
+}
