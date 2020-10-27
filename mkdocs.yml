@@ -2,23 +2,24 @@ site_name: Turris Documentation
 site_description: Official Turris documentation for both hardware and software
 site_author: CZ.NIC z.s.p.o.
 copyright: CC-BY-SA-4.0
-
+repo_url: https://gitlab.nic.cz/turris/user-docs
+repo_name: turris/user-docs
+edit_uri: https://gitlab.nic.cz/turris/user-docs/-/tree/master/docs
 
 theme:
     name: 'material'
     custom_dir: 'docs/theme'
-    logo: '/theme/img/turris-logo.svg'
-    favicon: '/theme/img/favicon.ico'
+    logo: 'theme/img/turris-logo.svg'
+    favicon: 'theme/img/favicon.ico'
     font: false
     language: 'en'
-    scheme: preference
-    features:
-      - navigation.instant
     static_templates:
       - 404.html
 
 markdown_extensions:
-    - lightgallery
+    - lightgallery:
+        show_description_as_inline_caption: true
+        custom_inline_caption_css_class: 'image-caption'
     - markdown_include.include:
         base_path: docs
     - admonition
