@@ -1,3 +1,7 @@
+---
+board: mox, omnia, 1.x
+competency: advanced
+---
 # Nextcloud server on Turris
 
 ## What is Nextcloud?
