@@ -1,6 +1,6 @@
 ---
 board: mox, omnia, 1.x
-competency: advanced
+competency: intermediate
 ---
 # Nextcloud server on Turris
 
