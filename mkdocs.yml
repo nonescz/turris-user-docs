@@ -95,6 +95,7 @@ nav:
     - reForis:
         - About: 'basics/reforis/intro.md'
         - Screenshots: 'basics/reforis/screenshots/reforis.md'
+        - 'Factory reset': 'basics/reforis/factory-reset/factory-reset.md'
     - LuCI:
         - Introduction: basics/luci/luci.md
         - Static IP: basics/luci/static-dhcp/static-dhcp.md
