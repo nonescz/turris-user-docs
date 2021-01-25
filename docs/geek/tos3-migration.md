@@ -34,7 +34,7 @@ Turris OS 3.x.
 * Webcam package list was dropped.
 * Network switch configuration now uses
   [DSA](https://www.kernel.org/doc/html/latest/networking/dsa/configuration.html).
-  See up to date documentation on how to [configure
+  See the up to date documentation on how to [configure
   VLANs](../basics/luci/vlan/luci-vlan.md).
 
 ##### Turris Omnia specifics
