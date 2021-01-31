@@ -5,7 +5,7 @@ competency: intermediate
 # First setup of Turris Omnia and Mox without Ethernet LAN
 
 These days it is common that laptops do not have Ethernet sockets and that can
-make initiae configuration of Turris routers pretty complicated. An alternative
+make initiate configuration of Turris routers pretty complicated. An alternative
 initial configuration was added in Turris OS 5.2.0. It uses a configuration file
 on an USB flash drive to set the password for the web configuration interface and
 to enable the Wi-Fi.
