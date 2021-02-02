@@ -96,6 +96,7 @@ nav:
     - reForis:
         - About: 'basics/reforis/intro.md'
         - DNS: 'basics/reforis/dns/reforis-dns.md'
+        - Updates: 'basics/reforis/updates/reforis-updates.md'
         - Screenshots: 'basics/reforis/screenshots/reforis.md'
     - LuCI:
         - Introduction: basics/luci/luci.md
