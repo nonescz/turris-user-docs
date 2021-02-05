@@ -35,7 +35,7 @@ to use a regular HDD or SSD to get both higher speed and better durability.
 In case of a USB drive, insert it into the USB slot on your router. If you are using a different type of storage, make sure that it is properly inserted or
 connected to the router.
 
-Once the external storage is inserted, inside the tab Storage in reForis in
+Once the external storage is inserted, inside the _Storage_ tab in reForis in
 Prepare drives section, select where your persistent data should be stored and
 press the _Format & Set_ button.
 
