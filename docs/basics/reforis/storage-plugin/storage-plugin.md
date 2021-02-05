@@ -46,7 +46,7 @@ Now, wait until formatting is finished. For applying the changes, you need to
 reboot your system.
 
 You can do this by going to the _Notifications_ on the _Overview_ tab or
-Notifications Dropdown and pressing _Reboot_.
+_Notifications_ dropdown and pressing _Reboot_.
 
 ![Reboot notification](reboot.png)
 
