@@ -51,7 +51,7 @@ _Notifications_ dropdown and pressing _Reboot_.
 ![Reboot notification](reboot.png)
 
 The reboot might take a long time because it involves the transfer of your data
-to new storage.
+to the new storage.
 
 
 ![Notification after reboot](done.png)
@@ -66,7 +66,7 @@ external disk.
 ## Multiple drives
 
 You can add additional drives anytime you need more space or redundancy. Simply
-select additional drive in the web interface.
+select an additional drive in the web interface.
 
 **Data on the newly selected drive will be deleted.** Data on old drives will be
 spread across all enabled drives.
@@ -74,7 +74,7 @@ spread across all enabled drives.
 ![Multiple devices](multiple-devices.png)
 
 If you have more drives and want to remove/replace some of them, do so by
-unchecking them in in the Web UI and hitting _Format & Set_ button. Removing
+unchecking them in in the Web UI and hitting the _Format & Set_ button. Removing
 drive takes a long time as data need to be moved out of it first and 
 
 !!! tip No additional reboot is needed to extend/shrink your storage. Actually
@@ -84,7 +84,7 @@ notification that everything is successfully finished.
 
 ## Data redundancy
 
-By default, adding more drives will increase the capacity available in /srv. If
+By default, adding more drives will increase the capacity available in `/srv`. If
 you are using your router to store important data, you might want to set
 redundancy for your drives. It can be done in two ways: via the web interface or
 CLI.
@@ -94,13 +94,13 @@ Valid options are the following:
 * `raid1` - every piece of data is kept on two different drives (no matter how
   many drives you have), so if one drive fails, you can still get to your data
 * `single` - there is only one copy of data - more space, but not redundancy
-* `custom` - raid level is unchanged and only rebalance is done after
+* `custom` - the RAID level is unchanged and only rebalance is done after
   adding/removing the drive
 
 ### Web interface
 
-In Prepare drives section choose the option you want and the click _Format &
-Set_ button
+In the _Prepare drives_ section choose the option you want and the click _Format &
+Set_ button.
 
 ![Raid options](raid-options.png)
 
@@ -113,5 +113,5 @@ uci set storage.srv.raid=raid1
 uci commit storage
 ```
 
-Then after hitting _Format & Set_ button without changing any drives, raid level
+Then after hitting the _Format & Set_ button without changing any drives, the RAID level
 will be set and data rearranged.
