@@ -3,7 +3,7 @@ board: shield, mox, omnia, 1.x competency: intermediate
 ---
 # Storage plugin
 
-Turris contains an eMMC flash memory card, which is used as the system storage.
+Turris Omnia contains a soldered eMMC flash memory chip, which is used as the system storage.
 It holds both the Turris OS itself and the created data. But if you want to use
 applications that need to save larger amounts of data, you can use an external
 storage device.
