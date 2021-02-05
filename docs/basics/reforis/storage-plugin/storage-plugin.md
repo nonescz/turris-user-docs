@@ -1,5 +1,6 @@
 ---
-board: shield, mox, omnia, 1.x competency: intermediate
+board: shield, mox, omnia, 1.x 
+competency: intermediate
 ---
 # Storage plugin
 
