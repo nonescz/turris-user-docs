@@ -12,8 +12,11 @@ storage device.
 !!! tip 
     If you want to use [Nextcloud](../../../geek/nextcloud/nextcloud.md),
     [LXC](../../../geek/lxc/lxc.md), or other I/O intensive applications, don't
-    put them on the internal flash, always use external storage! Also, please
-    make sure that your data will fit on the new drive before switching.
+    put them on the internal flash. Always use external storage as internal
+    flash could be easily destroyed by I/O intensive applications! You can
+    recognize such applications by _External storage_ label, which you can see
+    in the _Packages_ tab. Also, please make sure that your data will fit on the
+    new drive before switching.
 
 The storage plugin allows you to easily move your `/srv` to an external drive.
 It both allows getting more space and lengthen the lifespan of the internal eMMC
@@ -33,7 +36,8 @@ to use a regular HDD or SSD to get both higher speed and better durability.
     Setting up external storage will destroy all data on newly selected
     storage. Make sure that the storage device has no important data on it.
 
-In case of a USB drive, insert it into the USB slot on your router. If you are using a different type of storage, make sure that it is properly inserted or
+In case of a USB drive, insert it into the USB slot on your router. If you are
+using a different type of storage, make sure that it is properly inserted or
 connected to the router.
 
 Once the external storage is inserted, inside the _Storage_ tab in reForis in
@@ -42,7 +46,7 @@ press the _Format & Set_ button.
 
 ![Storage devices](devices.png)
 
-You will be asked if you are ready to continue. If you are ready, press _OK_.
+You will be asked if you are ready to continue. Then press _Continue_.
 Now, wait until formatting is finished. For applying the changes, you need to
 reboot your system.
 
@@ -54,13 +58,12 @@ _Notifications_ dropdown and pressing _Reboot_.
 The reboot might take a long time because it involves the transfer of your data
 to the new storage.
 
-
 ![Notification after reboot](done.png)
 
 Once the process is finished, you have rebooted your router and logged back into
-reForis, the selected storage will be highlighted blue with a green alert. This means that the
-operation was successful and your data will from now on be written to the
-external disk.
+reForis, the selected storage will be highlighted blue with a green alert. This
+means that the operation was successful and your data will from now on be
+written to the external disk.
 
 ![Device is ready](device-ready.png)
 
@@ -78,9 +81,10 @@ If you have more drives and want to remove/replace some of them, do so by
 unchecking them in in the Web UI and hitting the _Format & Set_ button. Removing
 drive takes a long time as data need to be moved out of it first and 
 
-!!! tip No additional reboot is needed to extend/shrink your storage. Actually
-quite opposite - everything happens at runtime, so avoid reboot till you get a
-notification that everything is successfully finished.
+!!! tip 
+    No additional reboot is needed to extend/shrink your storage. Actually
+    quite opposite - everything happens at runtime, so avoid reboot till you get a
+    notification that everything is successfully finished.
 
 
 ## Data redundancy
