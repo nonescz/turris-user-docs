@@ -42,7 +42,7 @@ press the _Format & Set_ button.
 ![Storage devices](devices.png)
 
 You will be asked if you are ready to continue. If you are ready, press _OK_.
-Now, wait when formatting is finished. For applying the changes, you need to
+Now, wait until formatting is finished. For applying the changes, you need to
 reboot your system.
 
 You can do this by going to the _Notifications_ on the Overview tab or
