@@ -45,7 +45,7 @@ You will be asked if you are ready to continue. If you are ready, press _OK_.
 Now, wait until formatting is finished. For applying the changes, you need to
 reboot your system.
 
-You can do this by going to the _Notifications_ on the Overview tab or
+You can do this by going to the _Notifications_ on the _Overview_ tab or
 Notifications Dropdown and pressing _Reboot_.
 
 ![Reboot notification](reboot.png)
