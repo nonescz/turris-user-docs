@@ -28,7 +28,7 @@ because all data-intensive applications save their data into `/srv`.
     
 ## First setup
 
-Pick an external storage device, which you want to move your persistent data to.
+Pick an external storage device which you want to move your persistent data to.
 It can be, for example, a simple USB flash drive, but it is strongly encouraged
 to use a regular HDD or SSD to get both higher speed and better durability.
 
