@@ -79,7 +79,7 @@ spread across all enabled drives.
 
 If you have more drives and want to remove/replace some of them, do so by
 unchecking them in in the Web UI and hitting the _Format & Set_ button. Removing
-drive takes a long time as data need to be moved out of it first and 
+drive takes a long time as data need to be moved out of it first.
 
 !!! tip 
     No additional reboot is needed to extend/shrink your storage. Actually
